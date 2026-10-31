@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-poof-bg is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://poof.bg/
+Poof provides a fast, GPU‑accelerated background removal API for images and videos. Developers can send a single request to remove backgrounds from photos, product images, GIFs, or video clips, receiving transparent PNG, WebP, WebM or MOV outputs. Plans start at $0.002 per image with 100 free credits monthly, and volume discounts are available. The service emphasizes low latency, high accuracy for hair, fur and complex edges, and offers bulk batch processing for large workloads.
+
+**Areas:** Company · API · BackgroundRemoval · ImageProcessing · VideoProcessing
+
+## poof-bg on APIs.io
+
+Everything profiled for poof-bg is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/poof-bg/](https://apis.io/providers/poof-bg/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [poof-bg Account API](https://apis.io/apis/poof-bg/poof-bg-account-api/) — Account and billing information
+- [poof-bg Background Removal API](https://apis.io/apis/poof-bg/poof-bg-background-removal-api/) — Background removal for images and video, and the jobs that video processing creates
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Poof Bg Agentic Access](https://apis.io/agentic-access/poof-bg/poof-bg-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [AccountInfo](https://apis.io/schemas/poof-bg/poof-bg-account-info/)
+- [Job](https://apis.io/schemas/poof-bg/poof-bg-job/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Poof Bg Context](https://apis.io/jsonld/poof-bg/poof-bg-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [poof-bg API Rules](https://apis.io/rules/poof-bg/poof-bg-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Poof Bg Authentication](https://apis.io/security/poof-bg/poof-bg-authentication/)
+- [Poof Bg Domain Security](https://apis.io/security/poof-bg/poof-bg-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Poof Bg Scopes](https://apis.io/scopes/poof-bg/poof-bg-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Poof Bg Plans Pricing](https://apis.io/plans/poof-bg/poof-bg-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Poof Bg Rate Limits](https://apis.io/rate-limits/poof-bg/poof-bg-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://poof.bg/)
+- [Documentation](https://docs.poof.bg/)
+- [Getting started](https://docs.poof.bg/quickstart)
+- [API reference](https://api.poof.bg/v1/)
+- [Pricing](https://poof.bg/pricing)
+- [Sign up](https://dash.poof.bg/auth/sign-up)
+- [Changelog](https://feedback.poof.bg/changelog)
+- [Blog](https://poof.bg/blog)
+- [Terms of service](https://poof.bg/terms)
+- [Privacy policy](https://poof.bg/privacy)
+- [GitHub](https://github.com/poof-bg)
+- [Status](https://status.poof.bg)
+
+## API Evangelist rating
+
+**Kin Score 67.1** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 62.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 67.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/poof-bg/](https://apis.io/providers/poof-bg/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for poof-bg: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/poof-bg/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
